@@ -5,7 +5,7 @@
 
 (function () {
 	"use strict";
-  
+	
 	// Load an assertion library. You can use any assertion library you want. Here, we use a lightly-modified
 	// version of Chai.
 	var assert = require("../assert.js");
@@ -28,8 +28,7 @@
 			// The URL of our stylesheet. It's served by Karma and configured in `build/config/karma.conf.js`.
 			stylesheet: "/base/src/Assignment-3/assignment3.css",
 		  },
-		  done
-		); // This is an asynchronous operation, so we pass in Mocha's `done` callback.
+		  done); // This is an asynchronous operation, so we pass in Mocha's `done` callback.
 	  });
   
 	  // Use Mocha's standard `after` function to clean up our Quixote test frame after all the tests are done.
@@ -82,9 +81,11 @@
 			.length === 2
 		);
 	  });
+	  
 	});
 	function isExist(target) {
 	  return target.length > 0 ? true : false;
 	}
   })();
   
+ 
