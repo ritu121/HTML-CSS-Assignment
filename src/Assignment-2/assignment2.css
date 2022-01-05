@@ -1,6 +1,6 @@
 /* Our CSS file. */
    
-   
+/*    
 .container, .content {
 width: 100%;   
 height: 100%;    
@@ -68,4 +68,129 @@ margin-left: 120px;
 }
 footer{
 background-color: rgb(211, 205, 205);
+} */
+.container{
+width: 100%;
+height: 100%;
+}
+.upper-section {
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(26, 132, 136);
+}
+.LOGO,form input {
+    display: inline-block;
+    
+}
+.LOGO {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.LOGO img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+input{
+    float: right;
+    padding-right: 5px;
+    margin-top: 30px;
+    margin: 31px;
+}
+nav ul li{
+
+    display: inline-block;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+nav {
+    height:80px;
+    border:1px solid black;
+    background-color: chartreuse;
+    
+}
+nav ul{
+    margin-left: 25%;
+
+}
+nav ul li a {
+    text-decoration: none;
+}
+aside , section {
+    display:inline-block;
+    
+}
+.left-sidebar  {
+    float: left;
+    margin-top: 0px;
+}
+.left-sidebar ul li{
+    list-style: none;
+    padding-top: 15px;
+    
+}
+aside #right-sidebar-menu li{
+    /* float: right; */
+    margin-top: 15px; 
+    list-style:none;
+    padding-top: 15px;
+     
+    
+}
+ .right {
+    float:right;
+    
+}
+section{
+    width: 55%;
+    height: 625px;
+    margin-left: 10%;
+    border: 1px solid black;
+    
+}
+aside {
+    width:10%;
+    height: 625px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    background-color: rgb(129, 129, 27);
+}
+.row1 img{
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    padding: 5px;
+    
+}
+.row2 img{
+    display: inline-block;
+    width: 230px;
+    height: 300px;
+    padding: 5px;   
+}
+footer{
+    border:1px solid black;
+    height: 80px;
+    background-color: rgb(230, 224, 216);
+    text-align: center;
+}
+
+.page-body section {
+    width: 20px;
+}
+.page-body section{
+    width: 40%;
+}
+left-sidebar ul li{
+    margin: 15px 0px;
+}
+.post-img {
+    width: 150px;
+    height: 200px
+
+}
+.row .post-img {
+    display: inline-block;
 }
