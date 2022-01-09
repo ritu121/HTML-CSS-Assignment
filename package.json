@@ -7,7 +7,9 @@
     "quixote": "^1.0.1"
   },
   "scripts": {
-    "dev": "jake karma & watch loose=true"
+    "dev": "jake karma & watch loose=true",
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
@@ -26,4 +28,5 @@
     "simplebuild-jshint": "^1.3.0",
     "simplebuild-karma": "^1.0.0"
   }
+  
 }
