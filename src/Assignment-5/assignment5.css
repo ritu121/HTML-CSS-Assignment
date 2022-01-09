@@ -8,20 +8,35 @@ width: 100%;
 height: 100%;
 background-color: white;
 }
-.card{
+.card {
     display: flex;
-    height: 310px;
+    height: 290px;
     flex-flow: row wrap;
-    margin: 10px;
-    border-radius:10px;
+    margin: 22px 53px;
+    border-radius: 10px;
     background-color: white;
 }
-img{
-    height: 300px;
-    width: 350px;
+.imgs1 {
+    height: 278px;
+    width: 382px;
+    position: relative;
+    top: -18px;
+    left: -24px;
+    bottom: 2px;
 }
-.img1{
+.imgs2 {
+    height: 282px;
+    width: 370px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    bottom: 10px;
+}
+.img1 {
+    width: 315px;
     background-color: #96f7a0;
+    border-radius: 10px 0px 0px 10px;
+
 }
 div.card div:nth-child(2) {
     flex-grow: 1;
